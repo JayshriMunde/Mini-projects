@@ -1,0 +1,26 @@
+.country-flags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.data {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  height: 100%;
+}
+.data img {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.data p {
+  margin-top: 10px;
+  font-weight: bold;
+}
